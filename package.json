@@ -1,0 +1,16 @@
+{
+  "name": "ts-node-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/pino": "^7.0.5",
+    "dayjs": "^1.11.10",
+    "express": "^4.18.2",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  }
+}
